@@ -1,0 +1,15 @@
+<svg width="200" height="250" viewBox="0 0 200 250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Center line -->
+  <line x1="100" y1="0" x2="100" y2="250" stroke="black" stroke-width="6" stroke-dasharray="70,110" />
+
+  <!-- Yellow left curve -->
+  <path d="M100 125 C60 85, 60 40, 100 0" fill="none" stroke="#F4B400" stroke-width="10" stroke-linecap="round" />
+  <path d="M100 125 C60 165, 60 210, 100 250" fill="none" stroke="#F4B400" stroke-width="10" stroke-linecap="round" />
+
+  <!-- Black right curve -->
+  <path d="M100 125 C140 85, 140 40, 100 0" fill="none" stroke="#212121" stroke-width="10" stroke-linecap="round" />
+  <path d="M100 125 C140 165, 140 210, 100 250" fill="none" stroke="#212121" stroke-width="10" stroke-linecap="round" />
+
+  <!-- Text -->
+  <text x="100" y="290" font-family="Arial, sans-serif" font-size="28" text-anchor="middle" fill="#212121">shifafoo.com</text>
+</svg>
